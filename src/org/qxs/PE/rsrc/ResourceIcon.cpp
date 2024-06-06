@@ -1,0 +1,2 @@
+#include "ResourceIcon.hpp"
+

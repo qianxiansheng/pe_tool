@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\src">
+      <UniqueIdentifier>{c9e227f4-6b7f-4742-b877-95bb1478f9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\org">
+      <UniqueIdentifier>{1e58cacb-15fa-478b-9f41-abeba977da28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\org\qxs">
+      <UniqueIdentifier>{4d4305e6-44bd-45d2-a464-05ac990d3f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\org\qxs\bmp">
+      <UniqueIdentifier>{26da03f2-2d80-4c0f-b56f-d43a3895aa2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\org\qxs\PE">
+      <UniqueIdentifier>{9db074e1-4689-4d79-bdb6-4e9e38bf1d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\org\qxs\bmp\scaler">
+      <UniqueIdentifier>{0e4d0c1b-d38c-4c90-b353-57f3385c9a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\org\qxs\PE\rsrc">
+      <UniqueIdentifier>{6e2044b1-3948-4423-bdaa-dfa77f9a9df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\org\qxs\common">
+      <UniqueIdentifier>{c5a403d0-81b0-4394-8720-b04c68aa07d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\org\qxs\bmp\BmpGroup.cpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\bmp\BmpR8G8B8A8.cpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\bmp\Converter.cpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\bmp\ICOConverter.cpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\bmp\ICOLoader.cpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\bmp\Loader.cpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\bmp\PEResourceConverter.cpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\bmp\PNGLoader.cpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\bmp\scaler\BilinearInterpolatorScaler.cpp">
+      <Filter>源文件\src\org\qxs\bmp\scaler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\bmp\scaler\Scaler.cpp">
+      <Filter>源文件\src\org\qxs\bmp\scaler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\bmp\ColorSpaceConverter.cpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\PE\rsrc\ResourceType.cpp">
+      <Filter>源文件\src\org\qxs\PE\rsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\PE\rsrc\ResourceIcon.cpp">
+      <Filter>源文件\src\org\qxs\PE\rsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\PE\rsrc\ResourceIconGroup.cpp">
+      <Filter>源文件\src\org\qxs\PE\rsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\PE\rsrc\ResourceID.cpp">
+      <Filter>源文件\src\org\qxs\PE\rsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\PE\rsrc\ResourceManifest.cpp">
+      <Filter>源文件\src\org\qxs\PE\rsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\PE\rsrc\ResourceDataDir.cpp">
+      <Filter>源文件\src\org\qxs\PE\rsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\PE\rsrc\ResourceBase.cpp">
+      <Filter>源文件\src\org\qxs\PE\rsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\PE\rsrc\ResourceDataDirBuilder.cpp">
+      <Filter>源文件\src\org\qxs\PE\rsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\PE\IconTool.cpp">
+      <Filter>源文件\src\org\qxs\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\PE\PEFile8664.cpp">
+      <Filter>源文件\src\org\qxs\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\PE\PELoader.cpp">
+      <Filter>源文件\src\org\qxs\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\PE\PESection.cpp">
+      <Filter>源文件\src\org\qxs\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\common\Common.cpp">
+      <Filter>源文件\src\org\qxs\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\PE\PEFile.cpp">
+      <Filter>源文件\src\org\qxs\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\PE\PEConverter.cpp">
+      <Filter>源文件\src\org\qxs\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\org\qxs\bmp\BMPLoader.cpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\org\qxs\bmp\BmpGroup.hpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\bmp\BmpR8G8B8A8.hpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\bmp\Converter.hpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\bmp\ICOConverter.hpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\bmp\ICOLoader.hpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\bmp\Loader.hpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\bmp\PEResourceConverter.hpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\bmp\PNGLoader.hpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\bmp\scaler\BilinearInterpolatorScaler.hpp">
+      <Filter>源文件\src\org\qxs\bmp\scaler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\bmp\scaler\Scaler.hpp">
+      <Filter>源文件\src\org\qxs\bmp\scaler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\bmp\ColorSpaceConverter.hpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\PE\rsrc\ResourceType.hpp">
+      <Filter>源文件\src\org\qxs\PE\rsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\PE\rsrc\ResourceManifest.hpp">
+      <Filter>源文件\src\org\qxs\PE\rsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\PE\rsrc\ResourceIcon.hpp">
+      <Filter>源文件\src\org\qxs\PE\rsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\PE\rsrc\ResourceIconGroup.hpp">
+      <Filter>源文件\src\org\qxs\PE\rsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\PE\rsrc\ResourceID.hpp">
+      <Filter>源文件\src\org\qxs\PE\rsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\PE\rsrc\ResourceDataDir.hpp">
+      <Filter>源文件\src\org\qxs\PE\rsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\PE\rsrc\ResourceBase.hpp">
+      <Filter>源文件\src\org\qxs\PE\rsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\PE\rsrc\ResourceDataDirBuilder.hpp">
+      <Filter>源文件\src\org\qxs\PE\rsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\PE\IconTool.hpp">
+      <Filter>源文件\src\org\qxs\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\PE\PEFile8664.hpp">
+      <Filter>源文件\src\org\qxs\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\PE\PELoader.hpp">
+      <Filter>源文件\src\org\qxs\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\PE\PESection.hpp">
+      <Filter>源文件\src\org\qxs\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\common\Common.hpp">
+      <Filter>源文件\src\org\qxs\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\PE\PEFile.hpp">
+      <Filter>源文件\src\org\qxs\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\PE\PEConverter.hpp">
+      <Filter>源文件\src\org\qxs\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\org\qxs\bmp\BMPLoader.hpp">
+      <Filter>源文件\src\org\qxs\bmp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

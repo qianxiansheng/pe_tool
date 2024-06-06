@@ -1,0 +1,2 @@
+#include "ResourceManifest.hpp"
+
